@@ -12,5 +12,5 @@ This repository contains the development of the CalculatorPlus application. The 
 
 ### Clone the Repository
 ```bash
-git clone <repository-url>
+git clone <https://github.com/janisha42/git_assignment_HeroVired.git>
 cd CalculatorPlus
