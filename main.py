@@ -23,6 +23,10 @@ class Calculator:
 
     def square_root(self, x):
         return math.sqrt(x)
+def divide(self, a, b):
+    if b == 0:
+        raise ValueError("Cannot divide by zero.")
+    return a / b
 
 # You need to uncomment the above function and complete its implementation to add the square root feature.
 
@@ -39,6 +43,12 @@ print(f"{num1} + {num2} = {calculator.add(num1, num2)}")
 print(f"{num1} - {num2} = {calculator.subtract(num1, num2)}") print(f"{num1} * {num2} = {calculator.multiply(num1, num2)}")
 
 print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
+<<<<<<< HEAD
+# Changes from 'feature/sqrt' branch
+=======
+# Changes from 'dev' branch
+>>>>>>> dev
+
 
 # TODO: Uncomment and test the square root feature.
 
