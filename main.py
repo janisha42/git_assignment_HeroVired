@@ -27,7 +27,6 @@ class Calculator:
     return a / b 
     def square_root(self, x):
         return math.sqrt(x)
-# You need to uncomment the above function and complete its implementation to add the square root feature.
 
 if __name__ == "__main__":
 
@@ -45,8 +44,6 @@ print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
 
 # Changes from 'dev' branch
 >>>>>>> dev
-
-# TODO: Uncomment and test the square root feature.
 
 # num3 = 25
 
